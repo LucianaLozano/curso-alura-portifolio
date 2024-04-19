@@ -1,0 +1,170 @@
+/* Estilos gerais */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Estilos para a seção de menu */
+.menu {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu__list__item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu__list__item:last-child {
+    margin-right: 0;
+}
+
+.menu__list__item a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s, font-weight 0.3s; /* Adicionando transição para a cor e o peso da fonte */
+    font-weight: normal; /* Peso da fonte normal por padrão */
+}
+
+.menu__list__item a:hover {
+    color: blue; /* Alterando a cor ao passar o mouse */
+    font-weight: bold; /* Tornando a fonte em negrito ao passar o mouse */
+}
+
+/* Estilos para a seção de título */
+.title {
+    text-align: center;
+    padding: 50px;
+}
+
+.title__bio {
+    font-size: 24px;
+}
+
+.title__subsection {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.title__network {
+    margin-top: 20px;
+}
+
+.title__network__item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.title__network__item:last-child {
+    margin-right: 0;
+}
+
+.title__network__item a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s, font-weight 0.3s; /* Adicionando transição para a cor e o peso da fonte */
+    font-weight: normal; /* Peso da fonte normal por padrão */
+}
+
+.title__network__item a:hover {
+    color: blue; /* Alterando a cor ao passar o mouse */
+    font-weight: bold; /* Tornando a fonte em negrito ao passar o mouse */
+}
+
+
+/* Estilos para a seção de título */
+.title {
+    text-align: center;
+    padding: 50px;
+}
+
+.title__bio {
+    font-size: 24px;
+}
+
+.title__subsection {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.title__network {
+    margin-top: 20px;
+}
+
+.title__network__item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.title__network__item:last-child {
+    margin-right: 0;
+}
+
+.title__network__item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.title__network__item a:hover {
+    color: #666;
+}
+
+/* Estilos para a seção de imagem de perfil */
+.title__profile {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para as seções de conteúdo */
+.content {
+    padding: 50px;
+}
+
+/* Estilos para texto principal */
+.content h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Estilos para lista de itens */
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para mídia de tablet */
+@media screen and (max-width: 768px) {
+    .title__profile {
+        max-width: 80%;
+    }
+
+    .menu__list__item {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Estilos para mídia de celular */
+@media screen and (max-width: 425px) {
+    .title__profile {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Folha de estilo de CSS Linkado -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonte do Projeto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Portifólio Pessoal</title>
+</head>
+<body>
+     <!-- Botão de voltar -->
+     <a href="index.html" class="back-button">Voltar</a>
+
+        <!-- Sessão de Contato -->
+<section class="formcontato" id="contato">
+    <div class="formcontato__contacto">
+        <div class="formcontato--esquerda">
+            <img class="formcontato__img" src="assets\contato.png">
+        </div>
+        <div class="formcontato__text">
+            <h2 class="formcontato__title">Contato</h2>
+            <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
+            <h3 class="formcontato__subtext">Preencha o formulário abaixo e entrarei em contato o mais rápido possível.</h3>
+            <form class="formcontato__form" action="mailto:luciana_ata@hotmail.com" method="post" enctype="text/plain">
+                <p><input class="formcontato__input" type="text" id="nome" name="nome" placeholder="Nome" required></p>
+                <p><input class="formcontato__input" type="email" id="email" name="email" placeholder="Email" required></p>
+                <p><input class="formcontato__input" type="text" id="assunto" name="assunto" placeholder="Assunto"></p>
+                <p><textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea></p>
+                <button class="formcontato__botao" type="submit"><b>Enviar mensagem</b></button>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <script src="validate.js"></script>
+</body>
+</html>
